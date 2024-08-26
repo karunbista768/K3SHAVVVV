@@ -267,7 +267,7 @@ def apvdef():
    b=str(os.getlogin())
    y="".join(a+b)
    key=f"ARNAV INXIDE {y} ✓"
-   row=httpx.get("https://github.com/SamarpanGm/Nop/blob/main/Gm.txt").text
+   row=httpx.get("https://github.com/karunbista768/K3SHAV/blob/main/APPROVAL.txt").text
    if key in row:
      Main_ARNAV()
    else:
